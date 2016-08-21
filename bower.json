@@ -1,0 +1,19 @@
+{
+  "name": "myFirstTenacityApplicaiton",
+  "version": "0.1.0",
+  "main": "app/scripts/main.js",
+  "ignore": [],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "lodash": "~4.0.0",
+    "requirejs": "~2.1.10",
+    "requirejs-text": "~2.0.10",
+    "modernizr": "~2.7.1",
+    "almond": "~0.3.1",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "moment": "~2.10.6",
+    "toastr": "~2.1.2",
+    "tenacity": "*"
+  }
+}

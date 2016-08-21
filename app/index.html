@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <title>My Tenacity Website</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+
+<body>
+    <!--[if lt IE 10]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div id="wrap">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="nav"></div>
+            </div>
+
+            <div id="breadcrumb" class="row"></div>
+
+            <div id="content" class="row">
+
+            </div>
+        </div>
+    </div>
+    <div id="progress"></div>
+    <div id="footer" class="panel">
+    
+    </div>
+
+    <!-- build:dist:remove -->
+    <script src="bower_components/requirejs/require.js"></script>
+    <script src="scripts/common.js"></script>
+    <!-- endbuild -->
+
+    <script src="config.js"></script>
+    <script src="events.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

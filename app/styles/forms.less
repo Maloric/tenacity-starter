@@ -1,0 +1,19 @@
+label {
+  color:@highlight;
+}
+
+input[type="text"] {
+  padding:5px;
+  border:@border;
+  border-radius: 3px;
+  font-size: 1.1em;
+  display: block;
+  width:100%;
+  margin:@spacing/2 0;
+  background: none;
+  &:focus {
+    outline: 0;
+    background:#FFF;
+    border-color:@highlight;
+  }
+}
